@@ -1,0 +1,45 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    align-items: center;
+  
+    h1 {
+      font-size: 22px;
+      color: var(--secondary-color);
+      margin-bottom: 1.5rem;
+      text-align: center;
+
+      
+    }
+    span{
+      font-size: 20px;
+    }
+  
+    .chart-container {
+      display: flex;
+      gap: 1rem;
+      flex-flow: row wrap;
+      margin-top: 1.5rem;
+    }
+  
+    .pie-chart, .bar-chart, .question-analysis {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      
+      h2 {
+        font-size: 20px;
+        color: var(--primary-color);
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+  
+      .recharts-wrapper {
+        margin: 0 auto;
+      }
+    }
+  }
+  

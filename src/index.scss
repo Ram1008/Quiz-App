@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600&family=Baloo+2:wght@400;500&family=Rubik:wght@400;500&display=swap');
+
+:root {
+  --primary-color: #f65226; /* Coral */
+  --secondary-color: #010d2d; /* Royal Blue */
+  --accent-color: #54c763; /* Mint Green */
+  --light-gray-color: #F7F7F9; /* Soft White */
+  --neutral-color: #444444; /* Dark Gray */
+  --error-color: #FF5252; /* Bright Red */
+  
+  --button-hover-color: #FF8A65; /* Light Coral */
+  --success-color: #4CAF50; /* Bright Green */
+  --info-color: #29B6F6; /* Sky Blue */
+  --card-bg-color: #FFF3E0; /* Light Peach */
+  --highlight-color: #FFEB3B; /* Bright Yellow */
+  --disabled-color: #BDBDBD; /* Soft Gray */
+
+  /* Fonts */
+  --primary-font: 'Fredoka One', cursive; /* For Headers */
+  --secondary-font: 'Nunito', sans-serif; /* For Body Text */
+  --alt-font: 'Baloo 2', cursive; /* For Titles and Buttons */
+  --body-font: 'Rubik', sans-serif; /* Alternative Body Font */
+
+  --heading-size: 20px;
+  --content-size: 16px;
+  --subheading-size: 18px;
+
+  /* General Styling */
+  min-height: 100vh;
+  line-height: 1.6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
